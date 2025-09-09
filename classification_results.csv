@@ -1,0 +1,26 @@
+Imputation Method,Classifier,Imputation Time (s),Execution Time (s),Accuracy
+Moda,Drzewa decyzyjne,0.022,0.135,0.9209104306533487
+Moda,Regresja logistyczna,0.022,0.308,0.6272037552535342
+Moda,Bayes naiwny,0.022,0.018,0.5914524316358277
+Moda,SVM,0.022,0.258,0.6265487691719884
+Moda,HistGradientBoostingClassifier,0.022,0.656,0.9973800556738169
+Mediana,Drzewa decyzyjne,0.06,0.14,0.9268053053872605
+Mediana,Regresja logistyczna,0.06,0.269,0.626385022651602
+Mediana,Bayes naiwny,0.06,0.018,0.5947273620435566
+Mediana,SVM,0.06,0.257,0.6264396048250641
+Mediana,HistGradientBoostingClassifier,0.06,0.568,0.9973800556738169
+IterativeImputer,Drzewa decyzyjne,1.471,0.178,0.9220020741225916
+IterativeImputer,Regresja logistyczna,1.471,0.338,0.6183614431526664
+IterativeImputer,Bayes naiwny,1.471,0.018,0.5988210250532177
+IterativeImputer,SVM,1.471,0.341,0.6183614431526664
+IterativeImputer,HistGradientBoostingClassifier,1.471,0.545,0.9986354456634463
+KNNImputer,Drzewa decyzyjne,100.432,0.14,0.9483652639048087
+KNNImputer,Regresja logistyczna,100.432,0.295,0.6251296326619726
+KNNImputer,Bayes naiwny,100.432,0.018,0.5991485180939905
+KNNImputer,SVM,100.432,0.282,0.6252387970088968
+KNNImputer,HistGradientBoostingClassifier,100.432,0.542,0.9960155013372632
+Brak,Drzewa decyzyjne,0,0.179,0.961082910321489
+Brak,Regresja logistyczna,0,,
+Brak,Bayes naiwny,0,,
+Brak,SVM,0,,
+Brak,HistGradientBoostingClassifier,0,0.585,0.9984716991430599
